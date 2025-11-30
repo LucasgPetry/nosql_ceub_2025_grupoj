@@ -135,6 +135,11 @@ Foi desenvolvido um painel interativo com Streamlit
 
 * BSON / json_util
 
-10. Conclusão
+10. Estrutura do diretório
+
+Os arquivos em PDF são respectivos aos requisitos e ao projeto, a pasta mongodump é o dump do database completo com suas collections e metadata. Por fim, a outra pasta zipada contém o script python gerador dos json, eles próprios, o script que constrói o dashboard em streamlit e um notebook ipynb contendo exemplos de operações CRUD com o cluster conectado. 
+
+11. Conclusão
 
 O projeto demonstra, de maneira integrada, como bancos NoSQL podem ser aplicados para a modelagem, simulação e análise de dados complexos. Desde a validação de documentos via JSON Schema, passando pela geração sintética estruturada, normalização analítica com Pandas e construção de dashboards com Streamlit, o trabalho evidencia o potencial de soluções NoSQL para cenários que envolvem relacionamentos flexíveis, grandes volumes de dados e análises exploratórias ricas.
+
